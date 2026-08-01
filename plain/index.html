@@ -1,12 +1,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>オントロジーを入れたら、AIに読ませる量が4割減った</title>
+<title>オントロジーを入れたら、AIに読ませる量が4割減った（図なし版・比較用）</title>
 <meta name="description" content="Xで見かけて、正直よく分からないまま試した記録。個人プロジェクトで測ったら、AIに読ませるトークンが約4割減りました。">
-<link rel="canonical" href="https://ronginooth.github.io/ontology-token-cut/">
+<link rel="canonical" href="https://ronginooth.github.io/ontology-token-cut/plain/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="オントロジーを入れたら、AIに読ませる量が4割減った">
 <meta property="og:description" content="Xで見かけて、正直よく分からないまま試した記録。個人プロジェクトで測ったら、AIに読ませるトークンが約4割減りました。">
-<meta property="og:url" content="https://ronginooth.github.io/ontology-token-cut/">
+<meta property="og:url" content="https://ronginooth.github.io/ontology-token-cut/plain/">
 <meta property="og:image" content="https://ronginooth.github.io/ontology-token-cut/ogp.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -166,12 +166,6 @@
         margin:34px 0 0;padding-top:26px;border-top:1px solid var(--line)}
   .cast img{width:52px;height:auto}
   @media (max-width:560px){ .who img{width:52px} .cast img{width:42px} }
-
-  /* 本文の図。1600x720の実寸PNGを幅いっぱいで置く */
-  figure{margin:26px 0 24px;padding:0}
-  figure img{width:100%;height:auto;display:block;border-radius:10px;
-             border:1px solid var(--line);background:#fbfaf7}
-  figure figcaption{margin-top:9px;font-size:12.5px;color:var(--faint);line-height:1.6}
 </style>
 
 <div class="wrap">
@@ -201,7 +195,6 @@
     <strong>私の考えていることや、私の書き方とかけ離れた投稿が量産される。</strong></p>
   <p>毎回「なんでそうなるの」と聞きました。直りませんでした。
     そのやり取りは、記録に残っていました。</p>
-  <figure><img src="ontology-article-figures/figure-01.png" alt="直らなかった理由は、記録の中に残っていた"><figcaption>図1｜直らなかった理由は、記録の中に残っていた。</figcaption></figure>
 </section>
 
 <section>
@@ -301,7 +294,6 @@
   <p>採点は5点満点。質問の(1)〜(5)がそのまま項目です。見たかったのは2つ。
     <strong>本当に安くなるのか</strong>と、<strong>答えが雑にならないか</strong>。
     片方だけ見ていたら、次に出てくる罠に気づけませんでした。</p>
-  <figure><img src="ontology-article-figures/figure-04.png" alt="減るだけでは、成功とは言えなかった"><figcaption>図2｜減るだけでは、成功とは言えなかった。3条件を並べて見た。</figcaption></figure>
 </section>
 
 <section>
@@ -315,7 +307,6 @@
     <li>答える</li>
   </ol>
   <p><strong>8ターン。合計128,366トークン。$0.367。66.5秒。</strong>　答えは5点満点でした。</p>
-  <figure><img src="ontology-article-figures/figure-05.png" alt="入れる前は、6ファイルを8ターンで読んだ"><figcaption>図3｜入れる前は、6ファイルを8ターンで読んだ。</figcaption></figure>
 </section>
 
 <section>
@@ -346,7 +337,6 @@
   </table>
   </div>
   <p>使い方が悪いというより、<strong>知らなければ必ず踏みます。</strong></p>
-  <figure><img src="ontology-article-figures/figure-07.png" alt="並べて探した言葉は、1件も見つからなかった"><figcaption>図4｜並べて探した言葉は、1件も見つからなかった。</figcaption></figure>
 </section>
 
 <section>
@@ -403,7 +393,6 @@
     AIは1往復するたびに、それまでの会話を全部再送します。
     8ターンが3ターンになると、積み上がる量が一気に落ちます。</p>
   <blockquote><p>本棚から6冊抜いて全部読んでいたのを、<strong>目次と索引だけ見て答えた</strong>、という感じです。</p></blockquote>
-  <figure><img src="ontology-article-figures/figure-09.png" alt="減ったのは、AIが読みに行った量"><figcaption>図5｜減ったのは、AIが読みに行った量。</figcaption></figure>
 </section>
 
 <section>
