@@ -81,8 +81,11 @@
   section > blockquote, section > .steps, section > .cmp{margin-left:33px}
   @media (max-width:560px){
     h2{display:block} h2 .num{display:block;margin-bottom:2px}
-    .sub, section > p, section > ul, section > ol, section > .box, section > .wrapT,
-    section > blockquote, section > .steps, section > .cmp{margin-left:0;padding-left:0}
+    /* 節のインデントは margin なので margin だけ外す。
+       padding まで0にすると .box / blockquote の内側余白まで消える（2026-08-01の不具合） */
+    section > p, section > ul, section > ol, section > .box, section > .wrapT,
+    section > blockquote, section > .steps, section > .cmp{margin-left:0}
+    .sub{margin-left:0;padding-left:0}
   }
   strong{color:var(--strong);font-weight:700}
   em{font-style:normal;color:var(--acc)}
